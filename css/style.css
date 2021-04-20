@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* MEGA MENU NAVIGATION BAR */
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .navbar {
+    overflow: hidden;
+    background-color: green;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color:green;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 100%;
+    left: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content .header {
+    background:orange;
+    padding: 16px;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    background-color: green;
+    height: 250px;
+  }
+  
+  .column a {
+    float: none;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .column a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+    .topnav-right {
+      float: right;
+    }
+    .para{
+        padding: 20px;
+    }
+
+    /* FOOTER */
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%; 
+      height: 15px;
+      background-color:green;
+      color: white;
+      text-align: center;
+   }
+
+   /* CAROUSEL */
+.carousel-inner img {
+  padding: 10px;
+  margin-top: 10px;
+width: 100%;
+height: 450px;}
+
+.desscript{
+  font-size: medium;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.imsiz{
+  width: 400px;
+  height: 200px;
+} 
+
+
+.whole{
+  padding: 20px;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: large;
+   
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column12 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after12 {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.imgtour{
+  padding-left: 30px;
+  height: 150px;
+  width: 70%;
+}
+
+/* slide */
+body {
+  margin: 0;
+}
+
+.img-container {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 500px;
+}
+
+.img-container img {
+  height: 300px;
+  left: 0;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 500px;
+  z-index: -1;
+}
+
+.img-container img.next {
+  opacity: 1;
+  z-index: 1;
+}
+
+.img-container img.prev {
+  opacity: 1;
+  z-index: 2;
+}
+
+.img-container img.fade-out {
+  opacity: 0;
+  transition: visibility 0s .5s, opacity .5s linear;
+  visibility: hidden;
+}
+
+
+/* login */
+
+body
+{
+  margin:0px; background-color:green; color:#f7f7f7; font-family:'Times New Roman', Times, serif;
+}
+#main
+{
+  width:600px; height:260px; margin-left:auto; margin-right:auto; border-radius:5px; padding-left:10px; margin-top:100px;
+  border-top:3px double #f1f1f1; border-bottom:3px double #f1f1f1; padding-top:20px;
+}
+#main table
+{
+  font-family:"Comic Sans MS", cursive;
+} 
+/* css code for textbox */
+#main .tb
+{
+ height:28px; width:230px; border:1px solid green; color:green; font-weight:bold; border-left:5px solid #f7f7f7; opacity:0.9;
+}
+
+/* css code for button*/
+#main .btn
+{
+ width:80px; height:32px; outline:none;  font-weight:bold; border:0px solid orange; text-shadow: 0px 0.5px 0.5px #fff;	
+ border-radius: 2px; font-weight: 600; color:orange; letter-spacing: 1px; font-size:14px; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;
+}
+
+#main .btn:hover
+{
+ background-color:orange; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
+}
+
+
